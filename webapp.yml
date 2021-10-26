@@ -3,8 +3,6 @@
   hosts: all
   roles:
     - davijam.webapp_role
-  vars_files:
-    - /home/admin/Ansible/files/secrets/credentials.vault
   pre_tasks:
     
     - name: install dependencies
