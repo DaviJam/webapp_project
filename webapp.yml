@@ -1,0 +1,4 @@
+---
+- hosts: prod
+  roles:
+    - davijam.webapp_role
